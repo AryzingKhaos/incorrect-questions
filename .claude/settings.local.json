@@ -15,7 +15,14 @@
       "Bash(npm init:*)",
       "Bash(npm install:*)",
       "Bash(npx tailwindcss:*)",
-      "Bash(npx shadcn@latest add:*)"
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(bash:*)",
+      "Bash(if [ -d \"D:/code/incorrect-questions/specs/001-image-text-extraction/checklists\" ])",
+      "Bash(then echo \"exists\")",
+      "Bash(else echo \"not exists\")",
+      "Bash(fi)",
+      "Bash(mkdir:*)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File \"D:/code/incorrect-questions/update-tasks-phase2.ps1\")"
     ]
   }
 }
