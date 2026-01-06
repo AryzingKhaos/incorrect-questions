@@ -22,7 +22,9 @@
       "Bash(else echo \"not exists\")",
       "Bash(fi)",
       "Bash(mkdir:*)",
-      "Bash(powershell.exe -ExecutionPolicy Bypass -File \"D:/code/incorrect-questions/update-tasks-phase2.ps1\")"
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File \"D:/code/incorrect-questions/update-tasks-phase2.ps1\")",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File \"D:/code/incorrect-questions/update-tasks-phase3.ps1\")",
+      "Bash(npm run dev:*)"
     ]
   }
 }
