@@ -24,14 +24,14 @@
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 Initialize Next.js project with TypeScript, Tailwind CSS, and App Router
-- [ ] T002 [P] Install dependencies: `openai`, `uuid`, `@types/uuid`
-- [ ] T003 [P] Initialize shadcn/ui with `npx shadcn-ui@latest init`
-- [ ] T004 [P] Install shadcn/ui components: button, card, dialog, toast, badge, skeleton
-- [ ] T005 [P] Configure Tailwind CSS with student-friendly color palette in tailwind.config.js
-- [ ] T006 Create project directory structure (src/app, src/components, src/lib, src/types, src/config)
-- [ ] T007 [P] Create `.env.local` file with DASHSCOPE_API_KEY placeholder and add to .gitignore
-- [ ] T008 [P] Configure next.config.js for environment variables (if using Next.js)
+- [X] T001 Initialize Next.js project with TypeScript, Tailwind CSS, and App Router
+- [X] T002 [P] Install dependencies: `openai`, `uuid`, `@types/uuid`
+- [X] T003 [P] Initialize shadcn/ui with `npx shadcn-ui@latest init`
+- [X] T004 [P] Install shadcn/ui components: button, card, dialog, toast, badge, skeleton
+- [X] T005 [P] Configure Tailwind CSS with student-friendly color palette in tailwind.config.js
+- [X] T006 Create project directory structure (src/app, src/components, src/lib, src/types, src/config)
+- [X] T007 [P] Create `.env.local` file with DASHSCOPE_API_KEY placeholder and add to .gitignore
+- [X] T008 [P] Configure next.config.js for environment variables (if using Next.js)
 
 ---
 
