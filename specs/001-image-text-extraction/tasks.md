@@ -63,24 +63,24 @@
 
 ### Implementation for User Story 1
 
-- [ ] T018 [P] [US1] Implement createQuestion CRUD function in src/lib/storage/questions.ts
-- [ ] T019 [P] [US1] Implement getAllQuestions CRUD function in src/lib/storage/questions.ts
-- [ ] T020 [P] [US1] Implement getQuestionById CRUD function in src/lib/storage/questions.ts
-- [ ] T021 [P] [US1] Implement confirmQuestion CRUD function in src/lib/storage/questions.ts
-- [ ] T022 [US1] Implement extractQuestionFromImage with mock response in src/lib/ai/extraction.ts
-- [ ] T023 [P] [US1] Create ImageUploader component with file input in src/components/upload/ImageUploader.tsx
-- [ ] T024 [P] [US1] Create ConfirmationView component (display image + extracted text) in src/components/upload/ConfirmationView.tsx
-- [ ] T025 [US1] Add file selection handler with validation to ImageUploader component
-- [ ] T026 [US1] Add image preview display logic to ImageUploader component
-- [ ] T027 [US1] Integrate AI extraction call in ImageUploader (calls extractQuestionFromImage)
-- [ ] T028 [US1] Add loading state during extraction in ImageUploader component
-- [ ] T029 [P] [US1] Implement "Confirm & Save" button in ConfirmationView (calls confirmQuestion)
-- [ ] T030 [P] [US1] Implement "Retry Scan" button in ConfirmationView (calls extractQuestionFromImage again)
-- [ ] T031 [P] [US1] Add disabled "Edit" button with "Coming Soon: Manual Correction" text in ConfirmationView
-- [ ] T032 [US1] Add success toast notification after question save in ConfirmationView
-- [ ] T033 [P] [US1] Create upload page in src/app/upload/page.tsx
-- [ ] T034 [US1] Integrate ImageUploader component into upload page
-- [ ] T035 [P] [US1] Add page title and instructions for students in upload page
+- [X] T018 [P] [US1] Implement createQuestion CRUD function in src/lib/storage/questions.ts
+- [X] T019 [P] [US1] Implement getAllQuestions CRUD function in src/lib/storage/questions.ts
+- [X] T020 [P] [US1] Implement getQuestionById CRUD function in src/lib/storage/questions.ts
+- [X] T021 [P] [US1] Implement confirmQuestion CRUD function in src/lib/storage/questions.ts
+- [X] T022 [US1] Implement extractQuestionFromImage with mock response in src/lib/ai/extraction.ts
+- [X] T023 [P] [US1] Create ImageUploader component with file input in src/components/upload/ImageUploader.tsx
+- [X] T024 [P] [US1] Create ConfirmationView component (display image + extracted text) in src/components/upload/ConfirmationView.tsx
+- [X] T025 [US1] Add file selection handler with validation to ImageUploader component
+- [X] T026 [US1] Add image preview display logic to ImageUploader component
+- [X] T027 [US1] Integrate AI extraction call in ImageUploader (calls extractQuestionFromImage)
+- [X] T028 [US1] Add loading state during extraction in ImageUploader component
+- [X] T029 [P] [US1] Implement "Confirm & Save" button in ConfirmationView (calls confirmQuestion)
+- [X] T030 [P] [US1] Implement "Retry Scan" button in ConfirmationView (calls extractQuestionFromImage again)
+- [X] T031 [P] [US1] Add disabled "Edit" button with "Coming Soon: Manual Correction" text in ConfirmationView
+- [X] T032 [US1] Add success toast notification after question save in ConfirmationView
+- [X] T033 [P] [US1] Create upload page in src/app/upload/page.tsx
+- [X] T034 [US1] Integrate ImageUploader component into upload page
+- [X] T035 [P] [US1] Add page title and instructions for students in upload page
 
 **Checkpoint**: At this point, User Story 1 should be fully functional - students can upload, confirm, and save questions
 
@@ -269,4 +269,5 @@ With multiple developers:
 
 **Parallel Opportunities**: ~40% of tasks marked [P] can run in parallel
 **Independent Stories**: US1, US2, US3 can be implemented and tested independently after Foundational phase
+
 
