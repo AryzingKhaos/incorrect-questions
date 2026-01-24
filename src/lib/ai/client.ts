@@ -8,9 +8,10 @@ import OpenAI from 'openai';
 
 /**
  * AI Model Identifier
- * Using Alibaba Qwen-Plus via DashScope API
+ * Using Alibaba Qwen-VL-Max (Vision Language Model) via DashScope API
+ * Note: qwen-vl-max supports image inputs, while qwen-plus does not
  */
-export const AI_MODEL = 'qwen-plus';
+export const AI_MODEL = 'qwen-vl-max';
 
 /**
  * OpenAI Client Instance

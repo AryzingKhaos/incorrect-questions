@@ -1,4 +1,14 @@
 {
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://co.yes.vg",
+    "ANTHROPIC_AUTH_TOKEN": "cr_8c7e4cd6e9e4b7df315ebbe719fcaa1896d8df3d18a72b8aace4359741b89186",
+    "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "20000",
+    "DISABLE_TELEMETRY": "1",
+    "DISABLE_ERROR_REPORTING": "1",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR": "1",
+    "MAX_THINKING_TOKENS": "12000"
+  },
   "permissions": {
     "allow": [
       "Bash(xargs ls:*)",
@@ -24,7 +34,9 @@
       "Bash(mkdir:*)",
       "Bash(powershell.exe -ExecutionPolicy Bypass -File \"D:/code/incorrect-questions/update-tasks-phase2.ps1\")",
       "Bash(powershell.exe -ExecutionPolicy Bypass -File \"D:/code/incorrect-questions/update-tasks-phase3.ps1\")",
-      "Bash(npm run dev:*)"
+      "Bash(npm run dev:*)",
+      "Bash(node test-qwen.js:*)"
     ]
-  }
+  },
+  "model": "sonnet"
 }
