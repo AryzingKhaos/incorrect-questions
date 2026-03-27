@@ -86,9 +86,14 @@ export function ConfirmationView({
                 </Badge>
               )}
 
-              {/* Noise Filtered Indicator */}
+              {/* Noise Filtered Indicator (Enhanced for T040) */}
               {extractedResult.noiseFiltered && (
-                <Badge variant="secondary">已过滤干扰内容</Badge>
+                <Badge variant="secondary" className="bg-blue-100 text-blue-800 hover:bg-blue-200">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 mr-1 inline" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  已智能过滤干扰内容
+                </Badge>
               )}
             </div>
           </div>
@@ -102,7 +107,16 @@ export function ConfirmationView({
 
           {/* Instruction */}
           <p className="text-xs text-muted-foreground">
-            请仔细核对识别结果是否准确。如有错误，可以重新扫描或等待后续手动编辑功能。
+            {extractedResult.noiseFiltered ? (
+              <>
+                ✓ AI已自动过滤：多余题目、学生答案、页眉页脚等干扰内容。请仔细核对识别结果是否准确。
+                如有错误，可以重新扫描或等待后续手动编辑功能。
+              </>
+            ) : (
+              <>
+                请仔细核对识别结果是否准确。如有错误，可以重新扫描或等待后续手动编辑功能。
+              </>
+            )}
           </p>
         </div>
       </Card>

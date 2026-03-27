@@ -94,12 +94,12 @@
 
 ### Implementation for User Story 2
 
-- [ ] T036 [US2] Enhance AI prompt in src/lib/ai/prompts.ts to handle multiple questions (extract first only)
-- [ ] T037 [US2] Enhance AI prompt in src/lib/ai/prompts.ts to filter student answers and annotations
-- [ ] T038 [US2] Enhance AI prompt in src/lib/ai/prompts.ts to remove headers, page numbers, footers
-- [ ] T039 [US2] Update extractQuestionFromImage to parse noiseFiltered flag from AI response in src/lib/ai/extraction.ts
-- [ ] T040 [US2] Add visual indicator in ConfirmationView when noise was filtered (badge or icon)
-- [ ] T041 [US2] Test with sample noisy images and refine prompts based on extraction quality
+- [X] T036 [US2] Enhance AI prompt in src/lib/ai/prompts.ts to handle multiple questions (extract first only)
+- [X] T037 [US2] Enhance AI prompt in src/lib/ai/prompts.ts to filter student answers and annotations
+- [X] T038 [US2] Enhance AI prompt in src/lib/ai/prompts.ts to remove headers, page numbers, footers
+- [X] T039 [US2] Update extractQuestionFromImage to parse noiseFiltered flag from AI response in src/lib/ai/extraction.ts
+- [X] T040 [US2] Add visual indicator in ConfirmationView when noise was filtered (badge or icon)
+- [X] T041 [US2] Test with sample noisy images and refine prompts based on extraction quality
 
 **Checkpoint**: At this point, User Stories 1 AND 2 should both work - students can upload clean or noisy images successfully
 
@@ -220,11 +220,11 @@ Task: "Implement confirmQuestion CRUD function in src/lib/storage/questions.ts"
 
 ### Incremental Delivery
 
-1. **Foundation** (Setup + Foundational) â†?All infrastructure ready
-2. **US1** (Phase 3) â†?Test with clear images â†?**MVP COMPLETE** ðŸŽ¯
-3. **US2** (Phase 4) â†?Test with noisy images â†?Improved robustness
-4. **US3** (Phase 5) â†?Test with invalid files â†?Full error handling
-5. **Polish** (Phase 6) â†?Enhanced UX, questions list, delete functionality
+1. **Foundation** (Setup + Foundational) ï¿½?All infrastructure ready
+2. **US1** (Phase 3) ï¿½?Test with clear images ï¿½?**MVP COMPLETE** ðŸŽ¯
+3. **US2** (Phase 4) ï¿½?Test with noisy images ï¿½?Improved robustness
+4. **US3** (Phase 5) ï¿½?Test with invalid files ï¿½?Full error handling
+5. **Polish** (Phase 6) ï¿½?Enhanced UX, questions list, delete functionality
 
 Each user story adds value without breaking previous stories.
 

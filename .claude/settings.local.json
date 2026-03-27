@@ -35,7 +35,10 @@
       "Bash(powershell.exe -ExecutionPolicy Bypass -File \"D:/code/incorrect-questions/update-tasks-phase2.ps1\")",
       "Bash(powershell.exe -ExecutionPolicy Bypass -File \"D:/code/incorrect-questions/update-tasks-phase3.ps1\")",
       "Bash(npm run dev:*)",
-      "Bash(node test-qwen.js:*)"
+      "Bash(node test-qwen.js:*)",
+      "Bash(claude --version)",
+      "Bash(env)",
+      "Bash(npm run build:*)"
     ]
   },
   "model": "sonnet"
